@@ -13,7 +13,7 @@
         },
         "duration": 3600,
         "amplifier": 0,
-        "ambient": true,
+        "ambient": false,
         "showParticles": true
       }
     ]

@@ -8,7 +8,7 @@
       "value": -13312,
       "falpha": 0.0
     },
-    "isInstant": true,
+    "isInstant": false,
     "mobEffectCategory": "BENEFICIAL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,

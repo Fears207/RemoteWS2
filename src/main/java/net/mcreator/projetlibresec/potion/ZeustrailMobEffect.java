@@ -3,11 +3,11 @@ package net.mcreator.projetlibresec.potion;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.InstantenousMobEffect;
+import net.minecraft.world.effect.MobEffect;
 
 import net.mcreator.projetlibresec.procedures.ZeustrailOnEffectActiveTickProcedure;
 
-public class ZeustrailMobEffect extends InstantenousMobEffect {
+public class ZeustrailMobEffect extends MobEffect {
 	public ZeustrailMobEffect() {
 		super(MobEffectCategory.BENEFICIAL, -13312);
 	}
