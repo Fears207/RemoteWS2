@@ -315,7 +315,12 @@
         "files": [
           "src/main/java/net/mcreator/projetlibresec/procedures/ZeustrailEffectExpiresProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     }
   ],

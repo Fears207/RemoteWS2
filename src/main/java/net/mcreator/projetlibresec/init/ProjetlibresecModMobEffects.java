@@ -42,7 +42,7 @@ public class ProjetlibresecModMobEffects {
 
 	private static void expireEffects(Entity entity, MobEffectInstance effectInstance) {
 		if (effectInstance.getEffect().is(ZEUSTRAIL)) {
-			ZeustrailEffectExpiresProcedure.execute();
+			ZeustrailEffectExpiresProcedure.execute(entity);
 		}
 	}
 }

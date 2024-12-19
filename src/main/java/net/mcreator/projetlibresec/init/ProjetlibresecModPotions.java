@@ -15,5 +15,5 @@ import net.mcreator.projetlibresec.ProjetlibresecMod;
 
 public class ProjetlibresecModPotions {
 	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(Registries.POTION, ProjetlibresecMod.MODID);
-	public static final DeferredHolder<Potion, Potion> ZEUSTRAILS = REGISTRY.register("zeustrails", () -> new Potion(new MobEffectInstance(ProjetlibresecModMobEffects.ZEUSTRAIL, 3600, 0, false, true)));
+	public static final DeferredHolder<Potion, Potion> ZEUSTRAILS = REGISTRY.register("zeustrails", () -> new Potion(new MobEffectInstance(ProjetlibresecModMobEffects.ZEUSTRAIL, 3600, 0, true, true)));
 }
