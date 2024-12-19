@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "projetlibresec:block/purestonebottom",
+    "top": "projetlibresec:block/purestonetop",
+    "side": "projetlibresec:block/purestone_side",
+    "overlay": "projetlibresec:block/purestone_side",
+    "particle": "projetlibresec:block/sparkletexture"
+  },
+  "render_type": "cutout_mipped"
+}

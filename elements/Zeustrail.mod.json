@@ -1,0 +1,25 @@
+{
+  "_fv": 69,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "ZeusTrail",
+    "icon": "bolt",
+    "color": {
+      "value": -13312,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": false,
+    "onActiveTick": {
+      "name": "ZeustrailOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "ZeustrailEffectExpires"
+    }
+  }
+}

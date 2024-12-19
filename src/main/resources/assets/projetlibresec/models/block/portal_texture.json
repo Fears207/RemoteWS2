@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "projetlibresec:block/for-anyone-looking-for-the-end-portal-texture-v0-8hndyng4homb1_1",
+    "particle": "projetlibresec:block/for-anyone-looking-for-the-end-portal-texture-v0-8hndyng4homb1_1"
+  },
+  "render_type": "solid"
+}

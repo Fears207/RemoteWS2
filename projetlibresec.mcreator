@@ -1,0 +1,153 @@
+{
+  "mod_elements": [
+    {
+      "name": "PureStone",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/projetlibresec/models/block/pure_stone.json",
+          "src/main/resources/assets/projetlibresec/models/item/pure_stone.json",
+          "src/main/resources/assets/projetlibresec/blockstates/pure_stone.json",
+          "src/main/java/net/mcreator/projetlibresec/block/PureStoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ValoriaTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valoria_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HeavensSmite",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_smite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/enchantment/HeavensSmiteEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "HeavenSmite",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_smite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/HeavenSmiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurestStone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purest_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/projetlibresec/models/item/purest_stone.json",
+          "src/main/java/net/mcreator/projetlibresec/block/PurestStoneBlock.java",
+          "src/main/resources/assets/projetlibresec/blockstates/purest_stone.json",
+          "src/main/resources/assets/projetlibresec/models/block/purest_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeustrailOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeustrail_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/ZeustrailOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Zeustrail",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeustrail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/potion/ZeustrailMobEffect.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "effect.projetlibresec.zeustrail": "ZeusTrail",
+      "enchantment.projetlibresec.heavens_smite": "Heavens Smite",
+      "block.projetlibresec.purest_stone": "Purest Stone",
+      "block.projetlibresec.pure_stone": "Pure Stone",
+      "itemGroup.tabvaloria_tab": "Valoria Tab"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "projetlibresec",
+    "modName": "ProjetLibreSec4",
+    "version": "1.0.0",
+    "author": "4101416, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.projetlibresec",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

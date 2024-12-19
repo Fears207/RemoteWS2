@@ -1,0 +1,10 @@
+{
+  "chargeup": {
+    "sounds": [
+      {
+        "name": "projetlibresec:sci-fi-weapon-charging-01-96645",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "mod_elements": [
+    {
+      "name": "PureStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/block/PureStoneBlock.java",
+          "src/main/resources/assets/projetlibresec/blockstates/pure_stone.json",
+          "src/main/resources/assets/projetlibresec/models/item/pure_stone.json",
+          "src/main/resources/data/projetlibresec/loot_table/blocks/pure_stone.json",
+          "src/main/resources/assets/projetlibresec/models/block/pure_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "ValoriaTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valoria_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HeavensSmite",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_smite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/enchantment/heavens_smite.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavenSmite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heaven_smite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/HeavenSmiteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PurestStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purest_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/loot_table/blocks/purest_stone.json",
+          "src/main/resources/assets/projetlibresec/models/item/purest_stone.json",
+          "src/main/resources/assets/projetlibresec/blockstates/purest_stone.json",
+          "src/main/resources/assets/projetlibresec/models/block/purest_stone.json",
+          "src/main/java/net/mcreator/projetlibresec/block/PurestStoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ZeustrailOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeustrail_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/ZeustrailOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zeustrail",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeustrail",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/potion/ZeustrailMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Grass",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/GrassProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThunderSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/projetlibresec/models/item/thunder_sword.json",
+          "src/main/java/net/mcreator/projetlibresec/item/ThunderSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ThunderSwordToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_sword_tool_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/ThunderSwordToolInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AirblokeffectOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "airblokeffect_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/AirblokeffectOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zeustrails",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeustrails",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PortalTexture",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_texture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/projetlibresec/blockstates/portal_texture.json",
+          "src/main/java/net/mcreator/projetlibresec/block/PortalTextureBlock.java",
+          "src/main/resources/assets/projetlibresec/models/item/portal_texture.json",
+          "src/main/resources/assets/projetlibresec/models/block/portal_texture.json",
+          "src/main/resources/data/projetlibresec/loot_table/blocks/portal_texture.json"
+        ]
+      }
+    },
+    {
+      "name": "ValoriaDimension",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valoria_dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/worldgen/biome/valoria_dimension.json"
+        ]
+      }
+    },
+    {
+      "name": "Valoria",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valoria",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/dimension_type/valoria.json",
+          "src/main/java/net/mcreator/projetlibresec/world/dimension/ValoriaDimension.java",
+          "src/main/resources/data/projetlibresec/dimension/valoria.json"
+        ]
+      }
+    },
+    {
+      "name": "PortalBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/loot_table/blocks/portal_block.json",
+          "src/main/resources/assets/projetlibresec/models/block/portal_block.json",
+          "src/main/resources/assets/projetlibresec/blockstates/portal_block.json",
+          "src/main/resources/assets/projetlibresec/models/item/portal_block.json",
+          "src/main/java/net/mcreator/projetlibresec/block/PortalBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Airblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "airblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/block/AirblockBlock.java",
+          "src/main/resources/assets/projetlibresec/blockstates/airblock.json",
+          "src/main/resources/assets/projetlibresec/models/item/airblock.json",
+          "src/main/resources/assets/projetlibresec/models/block/airblock.json",
+          "src/main/resources/data/projetlibresec/loot_table/blocks/airblock.json"
+        ]
+      }
+    },
+    {
+      "name": "ZeustrailEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zeustrail_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/projetlibresec/procedures/ZeustrailEffectExpiresProcedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "chargeup",
+      "files": [
+        "sci-fi-weapon-charging-01-96645"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:PurestStone",
+      "~CUSTOM:PureStone"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:PurestStone",
+      "~CUSTOM:PureStone"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:HeavensSmite"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:HeavensSmite"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ThunderSword"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:PureStone",
+      "~CUSTOM:PurestStone"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:HeavensSmite"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "effect.projetlibresec.zeustrail": "ZeusTrail",
+      "item.minecraft.tipped_arrow.effect.zeustrails": "Arrow of Zeustrails",
+      "block.projetlibresec.airblock": "Airblock",
+      "biome.projetlibresec.valoria_dimension": "Valoria Dimension",
+      "block.projetlibresec.pure_stone": "Pure Stone Grass",
+      "item.minecraft.splash_potion.effect.zeustrails": "Splash Potion of Zeustrails",
+      "item.minecraft.lingering_potion.effect.zeustrails": "Lingering Potion of Zeustrails",
+      "enchantment.projetlibresec.heavens_smite": "Heavens Smite",
+      "item.projetlibresec.thunder_sword": "Thunder Sword",
+      "block.projetlibresec.purest_stone": "Purest Stone",
+      "subtitles.chargeup": "",
+      "item_group.projetlibresec.valoria_tab": "Valoria Tab",
+      "block.projetlibresec.portal_texture": "Portal Texture",
+      "itemGroup.tabvaloria_tab": "Valoria Tab",
+      "item.minecraft.potion.effect.zeustrails": "Potion of Zeustrails",
+      "block.projetlibresec.portal_block": "Portal Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "projetlibresec",
+    "modName": "ProjetLibreSec4",
+    "version": "1.0.0",
+    "author": "4101416, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.projetlibresec"
+  },
+  "mcreatorVersion": 202400342716
+}
