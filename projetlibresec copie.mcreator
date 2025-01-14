@@ -9,10 +9,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/projetlibresec/block/PureStoneBlock.java",
+          "src/main/resources/assets/projetlibresec/blockstates/pure_stone.json",
           "src/main/resources/assets/projetlibresec/models/item/pure_stone.json",
-          "src/main/resources/assets/projetlibresec/models/block/pure_stone.json",
           "src/main/resources/data/projetlibresec/loot_table/blocks/pure_stone.json",
-          "src/main/resources/assets/projetlibresec/blockstates/pure_stone.json"
+          "src/main/resources/assets/projetlibresec/models/block/pure_stone.json"
         ]
       }
     },
@@ -80,11 +80,11 @@
       "registry_name": "purest_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/projetlibresec/models/item/purest_stone.json",
           "src/main/resources/data/projetlibresec/loot_table/blocks/purest_stone.json",
+          "src/main/resources/assets/projetlibresec/models/item/purest_stone.json",
+          "src/main/resources/assets/projetlibresec/blockstates/purest_stone.json",
           "src/main/resources/assets/projetlibresec/models/block/purest_stone.json",
-          "src/main/java/net/mcreator/projetlibresec/block/PurestStoneBlock.java",
-          "src/main/resources/assets/projetlibresec/blockstates/purest_stone.json"
+          "src/main/java/net/mcreator/projetlibresec/block/PurestStoneBlock.java"
         ]
       }
     },
@@ -164,8 +164,8 @@
       "registry_name": "thunder_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projetlibresec/item/ThunderSwordItem.java",
-          "src/main/resources/assets/projetlibresec/models/item/thunder_sword.json"
+          "src/main/resources/assets/projetlibresec/models/item/thunder_sword.json",
+          "src/main/java/net/mcreator/projetlibresec/item/ThunderSwordItem.java"
         ]
       }
     },
@@ -239,11 +239,11 @@
       "registry_name": "portal_texture",
       "metadata": {
         "files": [
-          "src/main/resources/assets/projetlibresec/models/item/portal_texture.json",
+          "src/main/resources/assets/projetlibresec/blockstates/portal_texture.json",
           "src/main/java/net/mcreator/projetlibresec/block/PortalTextureBlock.java",
-          "src/main/resources/data/projetlibresec/loot_table/blocks/portal_texture.json",
+          "src/main/resources/assets/projetlibresec/models/item/portal_texture.json",
           "src/main/resources/assets/projetlibresec/models/block/portal_texture.json",
-          "src/main/resources/assets/projetlibresec/blockstates/portal_texture.json"
+          "src/main/resources/data/projetlibresec/loot_table/blocks/portal_texture.json"
         ]
       }
     },
@@ -281,11 +281,11 @@
       "registry_name": "portal_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/projetlibresec/block/PortalBlockBlock.java",
-          "src/main/resources/assets/projetlibresec/blockstates/portal_block.json",
           "src/main/resources/data/projetlibresec/loot_table/blocks/portal_block.json",
+          "src/main/resources/assets/projetlibresec/models/block/portal_block.json",
+          "src/main/resources/assets/projetlibresec/blockstates/portal_block.json",
           "src/main/resources/assets/projetlibresec/models/item/portal_block.json",
-          "src/main/resources/assets/projetlibresec/models/block/portal_block.json"
+          "src/main/java/net/mcreator/projetlibresec/block/PortalBlockBlock.java"
         ]
       }
     },
@@ -297,11 +297,11 @@
       "registry_name": "airblock",
       "metadata": {
         "files": [
-          "src/main/resources/data/projetlibresec/loot_table/blocks/airblock.json",
           "src/main/java/net/mcreator/projetlibresec/block/AirblockBlock.java",
           "src/main/resources/assets/projetlibresec/blockstates/airblock.json",
           "src/main/resources/assets/projetlibresec/models/item/airblock.json",
-          "src/main/resources/assets/projetlibresec/models/block/airblock.json"
+          "src/main/resources/assets/projetlibresec/models/block/airblock.json",
+          "src/main/resources/data/projetlibresec/loot_table/blocks/airblock.json"
         ]
       }
     },
@@ -320,6 +320,20 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "Puitdefou",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puitdefou",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/worldgen/template_pool/puitdefou.json",
+          "src/main/resources/data/projetlibresec/worldgen/structure/puitdefou.json",
+          "src/main/resources/data/projetlibresec/worldgen/structure_set/puitdefou.json"
         ]
       }
     }

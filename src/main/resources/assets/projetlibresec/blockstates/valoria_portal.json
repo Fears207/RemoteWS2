@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "projetlibresec:block/valoria_portal_ew"
+    },
+    "axis=x": {
+      "model": "projetlibresec:block/valoria_portal_ns"
+    }
+  }
+}
