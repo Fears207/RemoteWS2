@@ -26,6 +26,7 @@ public class ProjetlibresecModTabs {
 				tabData.accept(ProjetlibresecModBlocks.PURE_STONE.get().asItem());
 				tabData.accept(ProjetlibresecModBlocks.PUREST_STONE.get().asItem());
 				tabData.accept(ProjetlibresecModItems.THUNDER_SWORD.get());
+				tabData.accept(ProjetlibresecModItems.VALORIA.get());
 				tabData.accept(ProjetlibresecModBlocks.PORTAL_BLOCK.get().asItem());
 				tabData.accept(ProjetlibresecModBlocks.AIRBLOCK.get().asItem());
 			}).withSearchBar().build());

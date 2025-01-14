@@ -26,7 +26,7 @@
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": ""
+      "value": "CUSTOM:PurestStone"
     },
     "portalParticles": {
       "value": "PORTAL"
@@ -43,11 +43,11 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:ValoriaTab"
       }
     ],
-    "texture": "",
+    "texture": "minecraft:black_dye",
     "portalTexture": "mainportalblock",
-    "enablePortal": false
+    "enablePortal": true
   }
 }

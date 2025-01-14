@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.projetlibresec.item.ValoriaItem;
 import net.mcreator.projetlibresec.item.ThunderSwordItem;
 import net.mcreator.projetlibresec.ProjetlibresecMod;
 
@@ -21,6 +22,7 @@ public class ProjetlibresecModItems {
 	public static final DeferredItem<Item> PUREST_STONE = block(ProjetlibresecModBlocks.PUREST_STONE);
 	public static final DeferredItem<Item> THUNDER_SWORD = REGISTRY.register("thunder_sword", ThunderSwordItem::new);
 	public static final DeferredItem<Item> PORTAL_TEXTURE = block(ProjetlibresecModBlocks.PORTAL_TEXTURE);
+	public static final DeferredItem<Item> VALORIA = REGISTRY.register("valoria", ValoriaItem::new);
 	public static final DeferredItem<Item> PORTAL_BLOCK = block(ProjetlibresecModBlocks.PORTAL_BLOCK);
 	public static final DeferredItem<Item> AIRBLOCK = block(ProjetlibresecModBlocks.AIRBLOCK);
 

@@ -267,9 +267,17 @@
       "registry_name": "valoria",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/projetlibresec/item/ValoriaItem.java",
           "src/main/resources/data/projetlibresec/dimension_type/valoria.json",
+          "src/main/resources/assets/projetlibresec/blockstates/valoria_portal.json",
           "src/main/java/net/mcreator/projetlibresec/world/dimension/ValoriaDimension.java",
-          "src/main/resources/data/projetlibresec/dimension/valoria.json"
+          "src/main/resources/assets/projetlibresec/models/block/valoria_portal_ew.json",
+          "src/main/resources/assets/projetlibresec/models/item/valoria.json",
+          "src/main/java/net/mcreator/projetlibresec/world/teleporter/ValoriaPortalShape.java",
+          "src/main/resources/assets/projetlibresec/models/block/valoria_portal_ns.json",
+          "src/main/resources/data/projetlibresec/dimension/valoria.json",
+          "src/main/java/net/mcreator/projetlibresec/world/teleporter/ValoriaTeleporter.java",
+          "src/main/java/net/mcreator/projetlibresec/block/ValoriaPortalBlock.java"
         ]
       }
     },
@@ -322,6 +330,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "Puitdefou",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puitdefou",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/worldgen/structure/puitdefou.json",
+          "src/main/resources/data/projetlibresec/worldgen/template_pool/puitdefou.json",
+          "src/main/resources/data/projetlibresec/worldgen/structure_set/puitdefou.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -366,6 +388,7 @@
     "en_us": {
       "effect.projetlibresec.zeustrail": "ZeusTrail",
       "item.minecraft.tipped_arrow.effect.zeustrails": "Arrow of Zeustrails",
+      "item.projetlibresec.valoria": "Valoria Portal Igniter",
       "block.projetlibresec.airblock": "Airblock",
       "biome.projetlibresec.valoria_dimension": "Valoria Dimension",
       "block.projetlibresec.pure_stone": "Pure Stone Grass",
