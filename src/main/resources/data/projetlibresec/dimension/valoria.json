@@ -27,7 +27,7 @@
       "aquifers_enabled": false,
       "ore_veins_enabled": false,
       "default_block": {
-        "Name": "projetlibresec:pure_stone"
+        "Name": "projetlibresec:purest_stone"
       },
       "default_fluid": {
         "Name": "minecraft:water",

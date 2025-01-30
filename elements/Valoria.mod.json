@@ -9,7 +9,7 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:PureStone"
+      "value": "CUSTOM:PurestStone"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"
@@ -24,7 +24,7 @@
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": false,
+    "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": "CUSTOM:PurestStone"
     },
