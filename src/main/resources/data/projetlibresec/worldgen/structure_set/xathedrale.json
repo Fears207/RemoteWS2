@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "projetlibresec:xathedrale",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 21,
+    "separation": 20,
+    "salt": 971289540
+  }
+}

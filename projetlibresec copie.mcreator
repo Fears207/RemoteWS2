@@ -344,6 +344,20 @@
           "src/main/resources/data/projetlibresec/worldgen/structure_set/puitdefou.json"
         ]
       }
+    },
+    {
+      "name": "Xathedrale",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xathedrale",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/projetlibresec/worldgen/template_pool/xathedrale.json",
+          "src/main/resources/data/projetlibresec/worldgen/structure_set/xathedrale.json",
+          "src/main/resources/data/projetlibresec/worldgen/structure/xathedrale.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
